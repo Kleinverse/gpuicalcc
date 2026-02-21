@@ -9,6 +9,10 @@ from gpuicalcc import GPUICALCC
 ica = GPUICALCC(n_components=4, K=6, device='cuda')
 S_hat = ica.fit_transform(X)
 ```
+## See Also
+
+- [icalcc](https://github.com/Kleinverse/icalcc) — icalcc (CPU only)
+- [Kleinverse Open Research Repository (KORR)](https://github.com/Kleinverse/research/tree/main/lcc) — research and experiment code
 
 ## Installation
 
