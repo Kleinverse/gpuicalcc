@@ -64,7 +64,7 @@ ica = GPUICALCC(n_components=4, K='ltanh', device='cuda', random_state=0)
 | `clear_gpu` | `True` | Clear GPU cache after fit |
 
 ## Benchmark
-![GPU Benchmark](img/benchmark.png)
+![GPU Benchmark](https://github.com/Kleinverse/research/blob/main/icalcc/img/benchmark.png)
 
 Bounded contrasts (`ltanh`, `lexp`) achieve 40–48× speedup across
 all dataset sizes. Polynomial contrasts (K=4,6,8) benefit from GPU
