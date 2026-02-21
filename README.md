@@ -82,6 +82,13 @@ Polynomial LCC (K=4,6,8) and bounded LCC (K='ltanh','lexp') are GPU-accelerated.
 
 RTX 5080, `gpu_mem_limit=12GB`, single component extraction.
 
+![GPU Benchmark](img/benchmark.png)
+
+Polynomial contrasts (K=4,6,8) benefit from GPU at N≥500k. Bounded contrasts (ltanh, lexp) achieve 40–48x speedup across all sizes due to the O(N²) pairwise computation.
+
+<details>
+<summary>Raw numbers</summary>
+
 | K | N | CPU (s) | GPU (s) | Speedup |
 |---|---|---|---|---|
 | 4 | 1k | 0.001 | 0.002 | 0.5x |
@@ -110,7 +117,7 @@ RTX 5080, `gpu_mem_limit=12GB`, single component extraction.
 | lexp | 500k | 67.916 | 1.477 | 46.0x |
 | lexp | 1M | 130.470 | 2.807 | 46.5x |
 
-Polynomial contrasts (K=4,6,8) benefit from GPU at N≥500k. Bounded contrasts (ltanh, lexp) achieve 40–48x speedup across all sizes due to the O(N²) pairwise computation.
+</details>
 
 ---
 
