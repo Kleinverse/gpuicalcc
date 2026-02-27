@@ -93,7 +93,8 @@ the underlying LCC kernel paper:
   title   = {{ICALCC}: Locally Centered Contrast Functions for
              {FastICA} with {GPU} Acceleration},
   journal = {TechRxiv},
-  year    = {2026}
+  year    = {2026},
+  doi     = {10.36227/techrxiv.177220376.62411390}
 }
 
 @article{saito2026lcc,
