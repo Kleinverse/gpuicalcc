@@ -1,4 +1,10 @@
 # gpuicalcc
+
+![PyPI - Version](https://img.shields.io/pypi/v/gpuicalcc)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/gpuicalcc)
+![PyPI - License](https://img.shields.io/pypi/l/gpuicalcc)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/gpuicalcc)
+
 GPU-accelerated locally centered contrast functions for FastICA.
 PyTorch extension of [icalcc](https://github.com/Kleinverse/icalcc).
 Same API, drop-in replacement with CUDA acceleration for bounded
