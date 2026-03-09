@@ -1,4 +1,4 @@
-# gpuicalcc
+# GPUICALCC
 
 ![PyPI - Version](https://img.shields.io/pypi/v/gpuicalcc)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/gpuicalcc)
